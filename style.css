@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  width: 100vw;
+height: 100vh;
+background-image: url('background.png');
+background-size: 32%;
+background-repeat: repeat;
+  }
+
+.container2 {
+    margin: 0 auto;
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+  #titulo{
+    text-shadow: #000000 4px 4px 6px;
+    font-family:"Lucida Grande", "Lucida Sans", "Helvetica", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #cce4f4;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  #numeroInput{
+    text-shadow: #000000 2px 2px 3px;
+    font-family: "Lucida Grande", "Lucida Sans", "Helvetica", sans-serif;
+    font-weight: bold;
+    color: #525252;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    margin-bottom: 1vh;
+    margin-top: 5vh;
+    border-radius: 15px;
+  }
+input[type="number"] {
+    text-shadow: #000000 4px 4px 6px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:  #168ed8;
+    border: none;
+    cursor: pointer;
+    text-shadow: #000000 2px 2px 3px;
+    font-family: "Lucida Grande", "Lucida Sans", "Helvetica", sans-serif;
+    font-weight: bold;
+    color: #b9b9b9;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+}
+.mensagem{
+    display: flex;
+justify-content: center;
+background-color: #104b6fb6;
+margin-top: 10px;
+width: 0 auto;
+height: 0 auto;
+border-radius: 15px;
+
+}
+#curiosidade{
+    padding: 20px;
+    text-align: center;
+    text-shadow: #000000 2px 2px 3px;
+    font-family: "Lucida Grande", "Lucida Sans", "Helvetica", sans-serif;
+    font-weight: bold;
+    color: #9b9b9b;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+button:hover {
+background-color:  #0f82ca;
+}
+@media (max-width: 548px) {
+  #titulo{
+    text-shadow: #000000 4px 4px 6px;
+    font-family:"Lucida Grande", "Lucida Sans", "Helvetica", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #cce4f4;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  #numeroInput{
+    text-shadow: #000000 2px 2px 3px;
+    font-family: "Lucida Grande", "Lucida Sans", "Helvetica", sans-serif;
+    font-weight: bold;
+    color: #525252;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    margin-bottom: 1vh;
+    margin-top: 3vh;
+    border-radius: 15px;
+  }
+input[type="number"] {
+    text-shadow: #000000 4px 4px 6px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:  #168ed8;
+    border: none;
+    cursor: pointer;
+    text-shadow: #000000 2px 2px 3px;
+    font-family: "Lucida Grande", "Lucida Sans", "Helvetica", sans-serif;
+    font-weight: bold;
+    color: #b9b9b9;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+}
+.mensagem{
+    display: flex;
+justify-content: center;
+background-color: #104b6fb6;
+margin-top: 10px;
+width: 0 auto;
+height: 0 auto;
+border-radius: 15px;
+
+}
+#curiosidade{
+    padding: 20px;
+    text-align: center;
+    text-shadow: #000000 2px 2px 3px;
+    font-family: "Lucida Grande", "Lucida Sans", "Helvetica", sans-serif;
+    font-weight: bold;
+    color: #9b9b9b;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+}
